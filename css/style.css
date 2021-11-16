@@ -1,0 +1,479 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.cleaner {
+    clear: both;
+}
+a
+{
+	text-decoration:none;
+}
+
+ul
+{
+	list-style:none;
+}
+
+body
+{
+    background-image: url('../img/film.png'), url('../img/film.png');
+    background-repeat: repeat-y, repeat-y;
+    background-position: right top, left top;
+}
+#wrapper 
+{
+    width: 1200px;
+    height: 100%;
+    margin: 0px auto;
+}
+
+#meni
+{
+    height:150px;
+    width: 1200px;
+    border-bottom: 1px solid black;
+    position:fixed;
+    z-index: 10;
+    background: white;
+}
+
+#meni img
+{
+    width: 250px;
+    float: left;
+}
+
+#meni h1
+{
+    padding: 50px 0px 0px 50px;
+    font-family: 'Sylfaen Regular', 'Times New Roman', Times, serif;
+    font-size: 45px;
+    float: left;
+    color: black;
+}
+
+#meni h2 a
+{
+    padding: 65px 0px 0px 50px;
+    font-family: 'Sylfaen Regular', 'Times New Roman', Times, serif;
+    font-size: 25px;
+    float: left;
+}
+#meni h2 a:hover
+{
+    font-size: 28px;
+}
+
+#meni i
+{
+    font-size: 35px;
+    padding-top: 70px;
+    float:right;
+}
+#search
+{
+    padding: 8px;
+    margin: 70px 10px 0px 0px;
+    float:right;
+    border: 1.5px solid black;
+}
+
+#meni a
+{
+   color:black;
+}
+#categorys
+{
+    margin: 160px 0px 0px 10px;
+    width: 200px;
+    border-right: 1px solid black;
+    position:absolute;
+}
+
+#categorys a
+{
+    font-family: 'Sylfaen Regular', 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: block;
+    margin-top:15px;
+    padding: 2px 0px 2px 8px;
+    color:black;
+    transition: background-color .3s;
+}
+#categorys a:hover
+{
+    font-size: 23px;
+    background: black;
+    color:white;
+    
+}
+
+#content
+{
+    position: relative;
+    left:220px;
+    top:165px;
+    padding: 5px;
+    width: 1000px;
+    min-height: 600px;
+}
+
+.movie-block
+{
+    float: left;
+    width: 182px;
+    height: 280px;
+    margin: 25px 25px 45px 35px;
+}
+
+.movie-block h3
+{
+    padding: 5px;
+    margin-top: -55px;
+    text-align: center; 
+    background: black;
+    font-size: 15px;
+}
+
+.movie-block a
+{
+    color: white;
+}
+
+.movie-block a:hover
+{
+    font-size: 16px;
+}
+
+.movie-tag
+{   
+    position: relative;
+    top: -273px;
+    left: -5px;
+    padding:5px;
+    background: black;
+    color: white;
+}
+
+.movie-year
+{
+    position: relative;
+    top: -273px;
+    
+    padding:5px;
+    background: black;
+    color: white;
+}
+.cart-add
+{
+    position: relative;
+    top: -150px;
+    left:50px;
+    visibility:hidden;
+}
+
+.add
+{
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+#footer
+{
+    position: relative;
+    top:180px;
+    margin-top: 50px;
+    height: 100%;
+    width: 100%;
+    background: black;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+}
+
+#footer a
+{
+    color:white;
+    font-size: 15px;
+    display: block;
+    padding-bottom: 15px; 
+}
+
+#footer a:hover
+{
+    font-size: 20px;
+}
+
+#sponsore img
+{
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+#headline h2
+{
+    font-size: 40px;
+
+}
+
+iframe
+{
+    width: 520px;
+    height: 345px;
+    margin: 20px 30px 150px 0px;
+    float: left;
+}
+#movie-info
+{
+    margin-top:20px;
+    float: left;
+    width: 400px;
+    border-collapse: collapse;
+}
+
+#movie-info tr td
+{
+    text-align: left;
+    vertical-align: top;
+    padding: 10px ;
+    border-bottom: 1px solid black;
+}
+
+#form
+{
+    margin:20px 0px 350px 200px;
+    border-collapse: collapse;
+    padding:10px;
+    text-align: left;
+    border-bottom: 1.5px solid black; 
+}
+
+#form tr td
+{
+    font-size: 20px;
+    padding: 10px ;
+}
+
+#form input
+{
+    padding: 5px 100px;
+}
+
+#form button
+{
+    padding:12px 20px;
+    background: black;
+    color: white;
+    border: none;
+}
+
+#pagination
+{
+    text-align: center;
+    padding: 15px;
+    margin-top: 710px;
+}
+
+#pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    margin: 5px;
+}
+
+#pagination a:hover 
+{
+    background-color: black;
+    color: white;
+}
+
+#me
+{
+    position: relative;
+    top:-300px;
+    float:left;
+}
+#aboutme
+{
+    position: relative;
+    top:-300px;
+    float: right;
+}
+#aboutme li
+{
+    margin-bottom: 10px;
+}
+
+.gallery
+{
+    float: left;
+    width: 182px;
+    height: 280px;
+    margin: 25px 25px 45px 35px;
+}
+
+#minTitle
+{
+    font-size: 40px;
+    position: relative;
+    top:-330px;
+    left:210px;
+}
+
+#edit
+{
+    padding:10px;
+    background: black;
+    color: white;
+    border: none;
+    position: relative;
+    top:-330px;
+    left:200px;
+}
+
+#edit-tab
+{
+    position: relative;
+    top: -300px;
+    visibility: hidden;
+}
+
+#form2
+{
+    margin:20px 0px -200px 200px;
+    border-collapse: collapse;
+    padding:10px;
+    text-align: left;
+}
+#form2 tr td
+{
+    font-size: 20px;
+    padding: 10px ;
+}
+
+#form2 input
+{
+    padding: 5px 100px;
+}
+
+#form2 button
+{
+    padding:12px 20px;
+    background: black;
+    color: white;
+    border: none;
+}
+
+.profile
+{
+    border:1px solid black;
+    float:left;
+    padding:10px;
+    width: 350px;
+    margin: 20px 10px 0px 10px;
+}
+.profile-tab
+{
+    border-collapse: collapse;
+}
+.profile-tab tr td
+{
+    height: 30px;
+    border-bottom: 1px solid black;
+    vertical-align: bottom;
+    
+}
+.profile-tab a
+{
+    padding:5px 10px 1px 5px;
+    background: white;
+    color: black;
+    transition: background-color .3s;
+}
+.profile-tab a:hover
+{
+    background: black;
+    color: white;
+}
+
+#favorite
+{
+    margin-top: 20px;
+    margin-bottom: 450px;
+}
+
+#favorite h4
+{
+    font-size: 30px;
+}
+
+#drop 
+{
+    padding:10px 20px 10px 20px;
+    
+}
+
+#surveySubmit
+{
+    padding: 10px;
+    border: 1px solid black;
+    background: white;
+}
+#surveySubmit:hover
+{
+    background: black;
+    color: white;
+
+}
+
+#sorry
+{
+    margin-bottom: 550px;
+}
+
+#message
+{
+    position: relative;
+    top:-300px;
+    left:200px;
+    font-size: 30px;
+    color: red;
+}
+.delete
+{
+    padding:5px 10px 1px 5px;
+    background: white;
+    color: #cc0000;
+    border: none;
+    transition: background-color .3s;
+    font-weight: bold;
+    font-size: 15px;
+}
+.delete:hover
+{
+    background: black;
+    color: #cc0000;
+}
+
+#sent
+{
+    font-size: 20px;
+    position: relative;
+    top:-300px;
+    left:200px;
+    color: green;
+    padding:5px 10px 5px 5px;
+}
+#sent a
+{
+    color: black;
+}
+#sent a:hover
+{
+    color: #cc0000;
+}
